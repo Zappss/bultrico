@@ -1,0 +1,45 @@
+{
+  "name": "ethan_s",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "moment": "^2.19.1",
+    "moment-duration-format": "^1.3.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-bootstrap-table": "^4.1.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.14",
+    "react-transition-group": "^2.2.1",
+    "reactstrap": "^4.8.0",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "reset": "^0.1.0",
+    "styled-components": "2.2.1",
+    "truffle-contract": "^3.0.0",
+    "web3": "^0.20.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "forever start -a --uid alexICO react-scripts start",
+    "migrate": "truffle migrate && cp -R build/ src/",
+    "reset-linux": "truffle migrate --reset && cp -R build/contracts src/",
+    "reset": "truffle migrate --reset && cp -R build/ src/"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "4.7.2",
+    "eslint-config-airbnb-base": "12.0.1",
+    "eslint-import-resolver-alias": "1.0.3",
+    "eslint-import-resolver-node": "0.3.1",
+    "eslint-plugin-babel": "4.1.2",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-react": "7.4.0"
+  }
+}
