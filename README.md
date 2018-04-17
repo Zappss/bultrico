@@ -14,5 +14,13 @@ https://rinkeby.etherscan.io/token/0x71ff8f9588d4e587d5d4741aa74bee3d7e42423b
 git clone https://github.com/bogdyak/bultrico.git
 cd bultrico
 npm install
-npm start
 ```
+
+### build Smart contract ABI's
+```
+truffle develop
+
+> compile
+```
+
+
